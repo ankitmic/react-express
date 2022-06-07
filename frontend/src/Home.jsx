@@ -153,54 +153,14 @@ function Home() {
           </div>
         </div>
 
-        {/* <table className="table">
-          <thead>
-            <tr>
-              <th>Id</th>
-              <th>Firstname</th>
-              <th>Lastname</th>
-              <th>Email</th>
-              <th>Password</th>
-              <th>Action</th>
-            </tr>
-          </thead>
-          <tbody>
-            {data.map((item) => (
-              <tr key={item._id}>
-                <td>{item._id}</td>
-                <td>{item.firstname}</td>
-                <td>{item.lastname}</td>
-                <td>{item.email}</td>
-                <td>{item.password}</td>
-                <td>
-                  <button
-                    onClick={() => selectUser(item._id)}
-                    className="btn btn-success"
-                    type="button"
-                  >
-                    Edit
-                  </button>
-                  &nbsp;
-                  <button
-                    className="btn btn-danger"
-                    onClick={() => deleteProduct(item._id)}
-                    type="button"
-                  >
-                    Delete
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table> */}
-
+       
         <div className="row">
           {data.map((item) => (
             <div className="col-md-4">
               <div className="card p-3">
                 <img
                   className="card-img-top"
-                  src="https://i.picsum.photos/id/1050/309/200.jpg?hmac=ucrndIDqUegho8h6Y0tK-j9tn4wBIGlJ_yPCZXzfhOM"
+                  src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
                   alt="Card image cap"
                 />
                 <div className="card-block mt-2">
